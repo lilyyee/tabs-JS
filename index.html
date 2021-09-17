@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs JavaScript</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about lily</h2>
+        <p>Registered Nurse turned Web Developer</p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./lily.jpeg" alt="about picture" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="background">background</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <article class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <!-- history -->
+              <p>
+                I spent years reviewing thousands of medical cases as a
+                registered nurse for insurance companies. I was at the top of my
+                game earning a six-figure salary working from home. However, I
+                was stressed out and unhappy.
+              </p>
+              <p>
+                In 2019, I decided to take a career break for a self-care
+                sabbatical. I started a wellness coaching business and by
+                accident, I quickly became so fascinated with web development
+                after I built my first website. After that, I decided to leave
+                my registered nursing career behind.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="background">
+              <h4>background</h4>
+              <!-- background -->
+              <ul>
+                <li>Front End Developer Student at Skillcrush</li>
+                <li>Bachelor's Degree in Nursing</li>
+                <li>
+                  Bachelor's Degree in Business Administration, Marketing
+                  Management
+                </li>
+                <li>Licensed Registered Nurse in California</li>
+                <li>
+                  Health & Life Coach Certification from Health Coach Institute
+                </li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <!-- goals -->
+              <p>
+                I'm a web developer who wants to build powerful sites and
+                applications that are simple, easy to understand, and
+                functional. I aim to use my developer skills to promote
+                wellness, education, and hopefully, make life simpler.
+              </p>
+            </div>
+            <!-- end of single item -->
+          </article>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
